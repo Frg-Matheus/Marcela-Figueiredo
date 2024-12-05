@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.bg-person{
+    background-color: #695879; 
+    box-shadow: 10px 0 10px #695879; 
+    position: sticky;
+    z-index: 99;
+}
+
+.btn-person{
+    background-color: #695879;
+    border: none;
+    border-radius: 9999px;
+    color: #FFFF;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 1rem;
+    padding: 0.8rem 3.8rem;
+}
+
+.card{
+    box-shadow: 0 0 15px #afafaf;
+    display: inline-block;
+    text-align: center;
+}
+
+.capilar {
+    padding-top: 5rem;
+}
+
+.corporal {
+    padding-top: 5rem;
+}
+
+.copyright{
+    padding-top: 5rem;
+}
+
+.facial{
+    padding-top: 5rem;
+}
+
+
+.icon{
+    width: 25px;
+}
+
+.subtitle-underline{
+    background-color: #695830;
+    border-radius: 9999px;
+    height: 5px;
+    margin: 8px auto 0 auto;
+    width: 100px;
+}
+
+.father-carousel{
+    padding-top: 80px;
+}
+
+.navbar-nav{
+    font-size: large;
+}
+
+.paragrafo{
+    font-weight: 500;
+}

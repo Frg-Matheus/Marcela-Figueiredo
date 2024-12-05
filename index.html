@@ -1,0 +1,919 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Derm. Marcela Figueiredo</title>
+    <link rel="stylesheet" href="src/styles/global.css" />
+    <link rel="icon" href="src/img/icon/icon-logotipo.png" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+    <div>
+      <nav class="navbar fixed-top col-12 navbar-expand-lg navbar-dark bg-person">
+        <div class="container-fluid col-11 m-auto">
+          <a class="navbar-brand" href="#">
+            <img src="src/img/icon/icon-navbar-logotipo.png" width="53px" /><a href="#"></a>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#capilar">Capilar</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#facial">Facial</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#corporal">Corporal</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#sobre">Sobre</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- CARROSSEL -->
+    <div class="father-carousel">
+      <div id="carouselExampleDark" class="carousel carousel-dark slide">
+        <div class="container">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <img src="src/img/carrossel/carrossel-1.png" class="d-block w-100" alt="..." />
+              <div class="carousel-caption d-none d-md-block">
+                <!-- <h5>First slide label</h5>
+                <p>Some representative placeholder content for the first slide.</p> -->
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img src="src/img/carrossel/carrossel-2.jpg" class="d-block w-100" alt="..." />
+              <div class="carousel-caption d-none d-md-block">
+                <!-- <h5>Second slide label</h5>
+                <p>Some representative placeholder content for the second slide.</p> -->
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="src/img/carrossel/carrrossel-3.jpg" class="d-block w-100" alt="..." />
+              <div class="carousel-caption d-none d-md-block">
+                <!-- <h5>Third slide label</h5>
+                <p>Some representative placeholder content for the third slide.</p> -->
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- CARDS -->
+    <div class="container">
+      <!-- CAPILAR -->
+      <div id="capilar">
+        <h2 class="capilar text-center">Capilar</h2>
+        <div class="subtitle-underline"></div>
+        <div class="row row-cols-1 row-cols-sm-3 g-5 m-2">
+          <div class="col">
+            <div class="card">
+              <img src="src/img/capilar/card-queda-capilar.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Queda Capilar</h5>
+                <p class="card-text">
+                  Preocupado com a queda de cabelo? Aqui oferecemos os melhores tratamentos para
+                  você! Entre eles: Microagulhamento com fatores de crescimento,
+                  Intradermoterapia/Mesoterapia, Ledterapia e Ozonioterapia. Os tratamentos podem
+                  ser realizados associados ou individualmente.
+                </p>
+                <p><u>A partir de R$119,90</u></p>
+                <a href="https://chat.whatsapp.com/KqViFFAf0F7734OmrzEBta"
+                  ><button class="btn-person" type="submit">Agendar Agora</button></a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <div class="ratio ratio-4x3">
+                <img
+                  src="src/img/capilar/card-microagulhamento-estetico.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Microagulhamento/Agulhamento Estético</h5>
+                <p class="card-text">
+                  O procedimento causa na pele microfuros, provocando uma pequena lesão que promove
+                  estímulo do colágeno, deixando a pele mais reestruturada, beneficiando a
+                  reorganização das fibras, melhorando a irrigação sanguínea e estimulando o
+                  crescimento dos fios.
+                </p>
+                <p><u>A partir de R$179,90</u></p>
+                <a href="https://chat.whatsapp.com/KqViFFAf0F7734OmrzEBta"
+                  ><button class="btn-person" type="submit">Agendar Agora</button></a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="src/img/capilar/card-mesoterapia.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Intradermoterapia/Mesoterapia</h5>
+                <p class="card-text">
+                  Indicado para alopécias masculinas e femininas. A intradermoterapia é uma técnica
+                  que consiste na aplicação, com finas agulhas, de substâncias com ações
+                  farmacológicas no couro cabeludo, nutrindo, trazendo força e potencializando o
+                  crescimento de novos fios.
+                </p>
+                <p><u>A partir de R$119,90</u></p>
+                <a href="https://chat.whatsapp.com/KqViFFAf0F7734OmrzEBta"
+                  ><button class="btn-person" type="submit">Agendar Agora</button></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- FACIAL -->
+      <div id="facial">
+        <h2 class="facial text-center">Facial</h2>
+        <div class="subtitle-underline"></div>
+        <div class="row row-cols-1 row-cols-sm-3 g-5 m-2">
+          <div class="col">
+            <div class="card">
+              <img
+                src="src/img/facial/card-bioestimulador-de-colageno.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Bioestimulador de colágeno</h5>
+                <p class="card-text">
+                  Um dos melhores tratamentos para retardar o envelhecimento, flacidez e perda de
+                  colágeno facial. É um produto biocompatível (não prejudica o organismo) que age
+                  estimulando a produção de colágeno, deixando a pele mais firme, sem as
+                  imperfeições indesejáveis. Possuímos Sculptra, Elleva e Diamond.
+                </p>
+                <p><u>Consultar Preço</u></p>
+                <a href="https://chat.whatsapp.com/KqViFFAf0F7734OmrzEBta"
+                  ><button class="btn-person" type="submit">Agendar Agora</button></a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="src/img/facial/card-esfoliacao-labial.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Esfoliação labial com peeling <br />
+                  de gluconolactona
+                </h5>
+                <p class="card-text">
+                  O tratamento consiste em remover as células mortas e promove a renovação celular.
+                </p>
+                <p><u>A partir de R$59,90</u></p>
+                <a href="https://chat.whatsapp.com/KqViFFAf0F7734OmrzEBta"
+                  ><button class="btn-person" type="submit">Agendar Agora</button></a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img
+                src="src/img/facial/card-fios-de-sustentacao.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Fios de sutentação</h5>
+                <p class="card-text">
+                  A técnica dos Fios de Sustentação é mais uma alternativa estética para retardar o
+                  envelhecimento e promover uma aparência jovem e natural. Eles possuem um único
+                  objetivo: tratar a flacidez que acomete nossa pele com o passar dos anos e que nos
+                  deixa com ar de cansados. Necessário avaliação para verificar quanto a quantidade
+                  de fios a serem utilizados, bem como o tipo do fio.
+                </p>
+                <p><u>Consultar Valor</u></p>
+                <a href="https://chat.whatsapp.com/KqViFFAf0F7734OmrzEBta"
+                  ><button class="btn-person" type="submit">Agendar Agora</button></a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="src/img/facial/card-hydragloss.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Hydra Gloss Lips</h5>
+                <p class="card-text">
+                  O Hidragloss Lips é um procedimento estético que hidrata e rejuvenesce os lábios.
+                  O tratamento consiste na aplicação de um sérum com ácido hialurônico,
+                  vitaminas e outros ativos, através de uma caneta dermapen, que realiza
+                  microagulhamento nos lábios. Os benefícios do Hidragloss Lips incluem:
+                  Hidratação profunda, Aumento temporário de volume, Regeneração labial, Brilho,
+                  Amenização de rugas e linhas.
+                  O Hidragloss Lips é um procedimento rápido e indolor, com resultados notáveis logo
+                  após a aplicação.
+                </p>
+                <p><u>A partir de R$179,90</u></p>
+                <a href="https://chat.whatsapp.com/KqViFFAf0F7734OmrzEBta"
+                  ><button class="btn-person" type="submit">Agendar Agora</button></a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img
+                src="src/img/facial/card-limpeza-de-pele-facial.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Limpeza de pele</h5>
+                <p class="card-text">
+                  Procedimento indicado para todo e qualquer tipo de pele, com o objetivo de remover
+                  impurezas: Cravos, espinhas e os famosos miliuns (pequeninos cistos epidérmicos).
+                </p>
+                <p><u>A partir de R$79,90</u></p>
+                <a href="https://chat.whatsapp.com/KqViFFAf0F7734OmrzEBta"
+                  ><button class="btn-person" type="submit">Agendar Agora</button></a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="src/img/facial/card-lipo-de-papada.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Lipo de Papada</h5>
+                <p class="card-text">
+                  Procedimento minimamente invasivo que visa reduzir medidas e acabar com a gordura
+                  localizada através da aplicação local de fármacos, no caso, enzimas lipolíticas e
+                  lipotróficas que atuam na queima de gordura na área tratada e auxilia na flacidez.
+                </p>
+                <p><u>A partir de R$139,90</u></p>
+                <a href="https://chat.whatsapp.com/KqViFFAf0F7734OmrzEBta"
+                  ><button class="btn-person" type="submit">Agendar Agora</button></a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="src/img/facial/card-microagulhamento.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Microagulhamento</h5>
+                <p class="card-text">
+                  Indicado para rejuvenescimento facial, cicatriz de acne, estria, cicatriz
+                  inestéticas, flacidez cutânea, poros dilatados, queda capilar e falhas na barba.
+                  Consiste no estímulo mecânico gerado por microagulhas, que criam microcanais, os
+                  quais estimulam a produção de colágeno. Finalizado com fatores de crescimento.
+                </p>
+                <p><u>A partir de R$179,90</u></p>
+                <a href="https://chat.whatsapp.com/KqViFFAf0F7734OmrzEBta"
+                  ><button class="btn-person" type="submit">Agendar Agora</button></a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img
+                src="src/img/facial/card-peeling-de-olheira.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Peeling de Olheira</h5>
+                <p class="card-text">
+                  A olheira é a causa do desconforto de muitas mulheres e homens que não abrem mão
+                  do corretivo antes de saírem de casa. Indicado para olheiras com excesso de
+                  pigmentação; a substância utilizada neste procedimento clareia a pele e reduz as
+                  manchas.
+                </p>
+                <p><u>A partir de R$119,90</u></p>
+                <a href="https://chat.whatsapp.com/KqViFFAf0F7734OmrzEBta"
+                  ><button class="btn-person" type="submit">Agendar Agora</button></a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <div class="ratio ratio-4x3">
+                <img
+                  src="src/img/facial/card-peelings-quimicos.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Peelings Químicos</h5>
+                <p class="card-text">
+                  Indicados para acne, rejuvenescimento facial/corporal, manchas e rugas. O
+                  tratamento de Peelings Químicos se resume na aplicação de substâncias químicas que
+                  promovem descamação da pele e renovação celular.
+                </p>
+                <p><u>A partir de R$149,90</u></p>
+                <a href="https://chat.whatsapp.com/KqViFFAf0F7734OmrzEBta"
+                  ><button class="btn-person" type="submit">Agendar Agora</button></a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img
+                src="src/img/facial/card-preenchimento-labial.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Preenchimento labial</h5>
+                <p class="card-text">
+                  O preenchimento labial é um dos procedimentos estéticos mais procurados por quem
+                  deseja destacar o contorno dos lábios, aumentar seu volume ou projetá-los.
+                  Utilizamos apenas preenchedores de Ácido Hialurônico.
+                </p>
+                <p><u>A partir de R$749,90</u></p>
+                <a href="https://chat.whatsapp.com/KqViFFAf0F7734OmrzEBta"
+                  ><button class="btn-person" type="submit">Agendar Agora</button></a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="src/img/facial/card-skinbooster.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Skinbooster</h5>
+                <p class="card-text">
+                  Rejuvenescimento facial rápido e duradouro, graças à ação hidratante, intensa e
+                  profunda do ácido hialurônico não reticulado. Promove hidratação de dentro para
+                  fora. Alisa e firma a pele, melhora a elasticidade e trata sinais de
+                  envelhecimento, como as rugas.
+                </p>
+                <p><u>A partir de R$319,90</u></p>
+                <a href="https://chat.whatsapp.com/KqViFFAf0F7734OmrzEBta"
+                  ><button class="btn-person" type="submit">Agendar Agora</button></a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="src/img/facial/card-toxina-botulinica.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Toxína botulínica - <strong>Botox</strong></h5>
+                <p class="paragrafo">
+                  (Testa + Glabela + Lateral dos Olhos)<br />Aplicação Avulsa com retorno
+                </p>
+                <p class="card-text">
+                  A Toxina Botulínica é indicada principalmente para amenizar linhas de expressão
+                  geradas pelo movimento repetitivo nas regiões de testa glabela, e “pés de
+                  galinha”. Além destas regiões, é possível tratar diversas queixas como sorriso
+                  gengival, enxaqueca, suor excessivo, bruxismo, entre outras questões funcionais.
+                  Um tratamento revolucionário, que pode te rejuvenescer até 10 anos, com aspecto
+                  NATURAL.
+                </p>
+                <p><u>A partir de R$749,90</u></p>
+                <a href="https://chat.whatsapp.com/KqViFFAf0F7734OmrzEBta"
+                  ><button class="btn-person" type="submit">Agendar Agora</button></a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img
+                src="src/img/facial/card-tratamento-de-melasma.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Tratamento de melasma</h5>
+                <p class="card-text">
+                  Dispomos de tratamentos que amenizam as manchas. Entre eles podemos citar a
+                  intradermoterapia, peelings químicos e microagulhamento, associados a
+                  nutraceuticos orais.
+                </p>
+                <p><u>A partir de R$119,90</u></p>
+                <a href="https://chat.whatsapp.com/KqViFFAf0F7734OmrzEBta"
+                  ><button class="btn-person" type="submit">Agendar Agora</button></a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img
+                src="src/img/facial/card-tratamento-para-acne-e-cicatrizes.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Tratamento para Acne e Cicatrizes</h5>
+                <p class="card-text">
+                  Possuímos tratamentos para acne e cicatrizes. Dentre os principais, podemos citar:
+                  Ativos que estimulam renovação celular, microagulhamento, subincisão, peelings
+                  químicos e mecânicos, limpeza de pele e LED terapia.
+                </p>
+                <p><u>A partir de R$119,90</u></p>
+                <a href="https://chat.whatsapp.com/KqViFFAf0F7734OmrzEBta"
+                  ><button class="btn-person" type="submit">Agendar Agora</button></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- CORPORAL -->
+      <div id="corporal">
+        <h2 class="corporal text-center">Corporal</h2>
+        <div class="subtitle-underline"></div>
+        <div class="row row-cols-1 row-cols-sm-3 g-5 m-2">
+          <div class="col">
+            <div class="card">
+              <img
+                src="src/img/corporal/card-acelerador-metabolico.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Acelerador metabolíco</h5>
+                <p class="card-text">
+                  Aplicação via intramuscular com enzimas de ação lipolítica, com ativos que
+                  promovem a aceleração do metabolismo, auxiliando na metabolização do colesterol e
+                  outros lipídeos, perdendo gordura corporal e consequentemente, diminuindo peso,
+                  além de ajudar na definição muscular.
+                </p>
+                <p><u>A partir de R$129,90</u></p>
+                <a href="https://chat.whatsapp.com/KqViFFAf0F7734OmrzEBta"
+                  ><button class="btn-person" type="submit">Agendar Agora</button></a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <div class="ratio ratio-4x3">
+                <img src="src/img/corporal/card-bcaa.jpg" class="card-img-top" alt="..." />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">BCAA Injetável</h5>
+                <p class="card-text">
+                  O BCAA injetável proporciona um processo de construção das fibras musculares mais
+                  rápido que o convencional. O procedimento é realizado com injeção intramuscular,
+                  isto é, diretamente no músculo. Indicado para quem leva a sério a atividade física
+                  e busca resultados rápidos e eficazes
+                </p>
+                <p><u>A partir de R$129,90</u></p>
+                <a href="https://chat.whatsapp.com/KqViFFAf0F7734OmrzEBta"
+                  ><button class="btn-person" type="submit">Agendar Agora</button></a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img
+                src="src/img/corporal/card-bioestimuladores-de-colageno.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Bioestimulador de colágeno</h5>
+                <p class="card-text">
+                  Um dos melhores tratamentos para flacidez corporal e celulites.
+                  <br />
+                  Indicado para as seguintes áreas:
+                </p>
+
+                <ul>
+                  <li>Abdômen</li>
+                  <li>Braços</li>
+                  <li>Colo</li>
+                  <li>Glúteo</li>
+                  <li>Mãos</li>
+                  <li>Parte interna de coxas</li>
+                </ul>
+                Além de melhorar a flacidez e a firmeza da pele, contribui para redefinir o contorno
+                do corpo, e o estímulo da produção de colágeno, que deixa a pele com um aspecto mais
+                rejuvenescido.
+                <p><u>Consultar valor</u></p>
+                <a href="https://chat.whatsapp.com/KqViFFAf0F7734OmrzEBta"
+                  ><button class="btn-person" type="submit">Agendar Agora</button></a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="src/img/corporal/card-biogluteo.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Bioglúteo</h5>
+                <p class="card-text">
+                  Procedimento tonificante e modelador de glúteo. Sua formulação é composta de
+                  ativos eficazes para manutenção celular e rejuvenescimento da pele. Atua no
+                  combate à flacidez da região dos glúteos, fortalecendo os músculos, melhorando a
+                  elasticidade, contorno e volume!
+                </p>
+                <p><u>A partir de R$159,90</u></p>
+                <a href="https://chat.whatsapp.com/KqViFFAf0F7734OmrzEBta"
+                  ><button class="btn-person" type="submit">Agendar Agora</button></a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img
+                src="src/img/corporal/card-carrossel-clareamento1.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Clareamento Íntimo</h5>
+                <p class="card-text">
+                  O clareamento íntimo é um procedimento estético que visa reduzir a pigmentação da
+                  pele na região genital e virilha. É indicado para mulheres que se sentem inseguras
+                  ou desconfortáveis com o escurecimento da pele nessas regiões. O clareamento
+                  íntimo pode ser feito por meio de diversas técnicas, como:
+                </p>
+
+                <ul>
+                  <li>Argilas</li>
+                  <li>Creme Despigmentantes</li>
+                  <li>Fototerapia</li>
+                  <li>Microcroagulhamento</li>
+                  <li>Peelings</li>
+                </ul>
+                <p><u>A partir de R$129,90</u></p>
+                <a href="https://chat.whatsapp.com/KqViFFAf0F7734OmrzEBta"
+                  ><button class="btn-person" type="submit">Agendar Agora</button></a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img
+                src="src/img/corporal/card-carrossel-clareamento2.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Clareamento Axílar</h5>
+                <p class="card-text">
+                  As manchas escuras na pele surgem devido ao acúmulo de melanina nas suas camadas,
+                  principalmente devido a situações como alterações hormonais, foliculites,
+                  inflamações e uso de cosméticos, principalmente em pessoas com predisposição
+                  genética, e são muito comuns em locais de maior atrito na pele, como na virilha e
+                  na axila. Tratamento com:
+                </p>
+
+                <ul>
+                  <li>Argilas</li>
+                  <li>Cremes Despigmentantes</li>
+                  <li>Fototerapia</li>
+                  <li>Microcroagulhamento</li>
+                  <li>Peelings</li>
+                </ul>
+                <p><u>A partir de R$129,90</u></p>
+                <a href="https://chat.whatsapp.com/KqViFFAf0F7734OmrzEBta"
+                  ><button class="btn-person" type="submit">Agendar Agora</button></a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="src/img/corporal/card-corrente-russa.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Corrente Russa</h5>
+                <p class="card-text">
+                  Aumenta a força e hipertrofia muscular, reduz quadros álgicos de diferentes
+                  etiologias e otimiza o fluxo vascular linfático. A eletroestimulação faz a
+                  contração muscular involuntária, promovendo um aumento da força e aumento do
+                  volume muscular.
+                </p>
+                <p><u>A partir de R$59,99</u></p>
+                <a href="https://chat.whatsapp.com/KqViFFAf0F7734OmrzEBta"
+                  ><button class="btn-person" type="submit">Agendar Agora</button></a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img
+                src="src/img/corporal/card-drenagem-linfatica.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Drenagem linfática</h5>
+                <p class="card-text">
+                  A drenagem linfática manual é um tipo de massagem corporal que serve para ajudar o
+                  corpo a eliminar o excesso de líquidos e toxinas, facilitando o tratamento da
+                  celulite, inchaço ou linfedema, e sendo também muito utilizada no pós-operatório
+                  de cirurgias, principalmente da cirurgia plástica. Melhora a circulação, elimina
+                  toxinas e diminui a retenção de líquido (inchaço), ativa a oxigenação e nutrição
+                  dos tecidos.
+                </p>
+                <p><u>A partir de R$99,90</u></p>
+                <a href="https://chat.whatsapp.com/KqViFFAf0F7734OmrzEBta"
+                  ><button class="btn-person" type="submit">Agendar Agora</button></a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="src/img/corporal/card-emagrecedoras.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Enzimas Emagrecedoras/Lipo Enzimática</h5>
+                <p class="card-text">
+                  Indicado para flacidez, gordura localizada, celulite, estrias e ganho de massa
+                  muscular. A intradermoterapia é uma técnica que consiste na aplicação, com finas
+                  agulhas, de substâncias com ações farmacológicas na pele ou tecido adiposo, tendo
+                  por finalidade promover a melhora da região onde são aplicadas, de acordo com cada
+                  disfunção.
+                </p>
+                <p><u>A partir de R$129,90</u></p>
+                <a href="https://chat.whatsapp.com/KqViFFAf0F7734OmrzEBta"
+                  ><button class="btn-person" type="submit">Agendar Agora</button></a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <div class="ratio ratio-4x3">
+                <img src="src/img/corporal/card-manchas-senis.jpg" class="card-img-top" alt="..." />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Machas Sênis</h5>
+                <p class="card-text">
+                  A área das mãos é uma região bem sensível que, ao mesmo tempo, sofre com diversas
+                  agressões ao longo do dia, entre elas a exposição solar e a poluição. Todo esse
+                  impacto acaba resultando em alguns sinais, como manchas amarronzadas. <br />
+                  Dispomos de tratamento com Peeling, Fototerapia e Nutrição.
+                </p>
+                <p><u>A partir de R$129,90</u></p>
+                <a href="https://chat.whatsapp.com/KqViFFAf0F7734OmrzEBta"
+                  ><button class="btn-person" type="submit">Agendar Agora</button></a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <div class="ratio ratio-4x3">
+                <img
+                  src="src/img/corporal/card-microvasos-PEIM.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Microvasos - PEIM</h5>
+                <p class="card-text">
+                  Você tem vasinhos nas suas pernas ou pés e quer se livrar deles? O PEIM pode te
+                  ajudar! Através de uma agulha muito fina, é injetado no vaso um medicamento
+                  líquido esclerosante, que vai causar uma alteração nas suas células, levando ao
+                  fechamento deste vaso, melhorando o aspecto, até a eliminação do mesmo.
+                </p>
+                <p><u>A partir de R$99,90</u></p>
+                <a href="https://chat.whatsapp.com/KqViFFAf0F7734OmrzEBta"
+                  ><button class="btn-person" type="submit">Agendar Agora</button></a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <div class="ratio ratio-4x3">
+                <img
+                  src="src/img/corporal/card-reducao-de-medidas-e-gordura-localizada.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Redução de medidas e gordura localizada</h5>
+                <p class="card-text">
+                  Existem vários tratamentos eficazes no combate à gordura localizada e redução de
+                  medidas. Dentre eles temos a Lipocavitação, Intradermoterapia, Mesoterapia,
+                  Hidrolipoclasia, dentre outros. Estes tratamentos agem na diminuição e destruição
+                  do adipócito e mostram resultados satisfatórios.
+                </p>
+                <p><u>A partir de R$129,90</u></p>
+                <a href="https://chat.whatsapp.com/KqViFFAf0F7734OmrzEBta"
+                  ><button class="btn-person" type="submit">Agendar Agora</button></a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <div class="ratio ratio-4x3">
+                <img
+                  src="src/img/corporal/card-tratamento-para-celulites-1.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Tratamento para celulites</h5>
+                <p class="card-text">A celulite pode ter diversas causas, entre elas:</p>
+
+                <ul>
+                  <li>
+                    Alterações hormonais, como as que ocorrem durante a gravidez, menstruação e
+                    menopausa.
+                  </li>
+                  <li>Hereditariedade.</li>
+                  <li>Obesidade.</li>
+                  <li>Sedentarismo.</li>
+                  <li>Tabagismo.</li>
+                  <li>Problemas circulatórios.</li>
+                  <li>Alimentação desregrada.</li>
+                </ul>
+                A celulite fibrosa é dolorosa e endurece a pele, provocando sensações de dor ao
+                apertar. O efeito casca de laranja te incomoda? Dispomos de inúmeros procedimentos
+                para o tratamento da celulite. Entre os principais: Intradermoterapia, Subcisão,
+                Bioestimuladores de Colágeno, Massagens Manuais, dentre outros.
+                <p><u>A partir de R$129,90</u></p>
+                <a href="https://chat.whatsapp.com/KqViFFAf0F7734OmrzEBta"
+                  ><button class="btn-person" type="submit">Agendar Agora</button></a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <div class="ratio ratio-4x3">
+                <img
+                  src="src/img/corporal/card-tratamento-para-estrias.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Tratamento para estrias</h5>
+                <p class="card-text">
+                  As estrias incomodam muito, tanto a homens quanto a mulheres. Disponibilizamos dos
+                  seguintes tratamentos para estrias brancas e vermelhas:
+                </p>
+
+                <ul>
+                  <li>Intradermoterapia</li>
+                  <li>Microagulhamento</li>
+                  <li>Peelings</li>
+                </ul>
+                <p><u>A partir de R$129,90</u></p>
+                <a href="https://chat.whatsapp.com/KqViFFAf0F7734OmrzEBta"
+                  ><button class="btn-person" type="submit">Agendar Agora</button></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr />
+    </div>
+    <!-- Typhografia -->
+    <div class="container">
+      <div id="sobre">
+        <h1 class="text-center">Sobre</h1>
+        <div class="subtitle-underline"></div>
+        <h2 class="m-5">Missão</h2>
+        <div class="col-11 m-auto">
+          <p class="text-center">
+            Transformar a vida dos pacientes, promover a autoestima, bem-estar e saúde, por meio de
+            tratamentos personalizados com segurança e qualidade.
+          </p>
+        </div>
+        <h2 class="m-5">Visão</h2>
+        <div class="col-11 m-auto">
+          <p class="text-center">
+            Ser referencia na saúde estética com tratamentos capilares, faciais e corporais
+            individualizados e humanizados, por meio da excelência de qualidade do atendimento
+            estético prestado, visando a promoção da autoestima, saúde e bem-estar.
+          </p>
+        </div>
+        <h2 class="m-5">Valores</h2>
+        <div class="col-11 m-auto">
+          <p class="text-center"></p>
+          <ul>
+            <li>Integridade</li>
+            <li>Respeito</li>
+            <li>Empatia</li>
+            <li>Inovação</li>
+            <li>Segurança</li>
+          </ul>
+        </div>
+        <hr />
+      </div>
+    </div>
+    <!-- FOOTER -->
+    <div class="container">
+      <footer class="page-footer font-small blue p-5">
+        <div class="links-footer">
+          <h5>Redes Sociais</h5>
+          <a href="https://www.instagram.com/marcelafigueiredo.dermato/">
+            <img class="icon" src="src/img/icon/icon-instagram.png" alt=""
+          /></a>
+        </div>
+        <div class="copyright text-center">
+          <a href="/"
+            >© Copyright 2024 - <strong>Dra Marcela Figueiredo</strong> - Todos os direitos
+            reservados.</a
+          >
+        </div>
+      </footer>
+    </div>
+    <!-- BIBLIOTECA -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </body>
+</html>
