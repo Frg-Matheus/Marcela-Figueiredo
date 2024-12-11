@@ -22,6 +22,17 @@
     padding: 0.8rem 3.8rem;
 }
 
+.btn-person-2{
+    background-color: #695830;
+    border: none;
+    border-radius: 9999px;
+    color: #FFFF;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 1rem;
+    padding: 0.5rem 2.8rem;
+}
+
 .card{
     box-shadow: 0 0 15px #afafaf;
     display: inline-block;
